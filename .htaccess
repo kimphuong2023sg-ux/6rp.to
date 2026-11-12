@@ -1,0 +1,15 @@
+# Chặn bot công cụ tìm kiếm index mọi file (kể cả ảnh, video, CSS, JS)
+<IfModule mod_headers.c>
+    Header set X-Robots-Tag "noindex, nofollow, noarchive, nosnippet, noimageindex"
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # If the requested file or directory exists, serve it directly
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Otherwise route to index.php in this folder
+    RewriteRule ^ index.php [QSA,L]
+</IfModule>
