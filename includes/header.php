@@ -37,8 +37,8 @@ $currentRoute = getCurrentRoute();
     <link rel="alternate" hreflang="x-default" href="<?= url($currentRoute, 'id') ?>">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/style.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/theme.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/style.css?v=<?= ASSET_VER ?>">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/theme.css?v=<?= ASSET_VER ?>">
     <meta name="theme-color" content="#05110d">
 
     <!-- Structured Data -->
