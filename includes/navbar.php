@@ -7,7 +7,7 @@ $currentRoute = getCurrentRoute();
     <div class="t35-bar">
         <!-- Brand Logo -->
         <a href="<?= url('home') ?>" class="t35-brand" data-domain-site-logo="1" aria-label="8RP Official">
-            <img class="domain-site-logo-image" src="<?= BASE_URL ?>/assets/img/logo-rp789.png?v=<?= ASSET_VER ?>" alt="8RP Official Logo" width="180" height="45">
+            <img class="domain-site-logo-image" src="<?= BASE_URL ?>/assets/img/logo-6rp.png?v=<?= ASSET_VER ?>" alt="6RP Logo" width="180" height="45">
         </a>
 
         <!-- Desktop Navigation Links (Exact 4 items from 8rpofficial.com) -->
@@ -56,7 +56,7 @@ $currentRoute = getCurrentRoute();
     
     <div style="margin-bottom: 20px;">
         <a href="<?= url('home') ?>">
-            <img src="<?= BASE_URL ?>/assets/img/logo-rp789.png?v=<?= ASSET_VER ?>" alt="8RP" style="height: 38px; width: auto;">
+            <img src="<?= BASE_URL ?>/assets/img/logo-6rp.png?v=<?= ASSET_VER ?>" alt="6RP" style="height: 38px; width: auto;">
         </a>
     </div>
 

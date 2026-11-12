@@ -18,7 +18,7 @@ define('SITE_NAME', '8RP Official');
 define('SITE_DOMAIN', '6rp.to');
 define('SITE_THEME', 'Emerald Night');
 // Đổi số này mỗi lần sửa CSS/JS/ảnh để Cloudflare + trình duyệt tải bản mới
-define('ASSET_VER', '20261112');
+define('ASSET_VER', '20261112c');
 define('SITE_TAGLINE_ID', 'Game Slot Bertema Permen dengan Tampilan Penuh Warna');
 define('SITE_TAGLINE_EN', 'Candy-Themed Slot Games with Vibrant Visuals');
 

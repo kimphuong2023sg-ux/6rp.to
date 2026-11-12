@@ -7,7 +7,7 @@ $currentLang = getCurrentLang();
         <!-- Brand & Description -->
         <div class="t35-footer-col">
             <a href="<?= url('home') ?>" class="t35-brand" style="margin-bottom: 16px;">
-                <img src="<?= BASE_URL ?>/assets/img/logo-rp789.png?v=<?= ASSET_VER ?>" alt="8RP Official" style="width: 170px; height: auto;">
+                <img src="<?= BASE_URL ?>/assets/img/logo-6rp.png?v=<?= ASSET_VER ?>" alt="6RP" style="width: 170px; height: auto;">
             </a>
             <p style="color: var(--th-muted); font-size: 14.5px; line-height: 1.6; margin-top: 12px;">
                 <?= t('footer_about') ?>

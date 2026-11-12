@@ -27,8 +27,8 @@ $currentRoute = getCurrentRoute();
     <meta name="twitter:image" content="<?= BASE_URL ?>/assets/img/hero-banner.webp">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="<?= BASE_URL ?>/assets/img/favicon.ico">
-    <link rel="apple-touch-icon" href="<?= BASE_URL ?>/assets/img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="<?= BASE_URL ?>/assets/img/favicon.ico?v=<?= ASSET_VER ?>">
+    <link rel="apple-touch-icon" href="<?= BASE_URL ?>/assets/img/apple-touch-icon.png?v=<?= ASSET_VER ?>">
 
     <!-- Canonical & Alternate Languages -->
     <link rel="canonical" href="<?= url($currentRoute) ?>">
